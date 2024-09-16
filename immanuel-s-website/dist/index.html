@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Immanuel&#39;s Website</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+    <div id="tsparticles"></div>
+    <section>
+      <div class="content">
+        <h4>Hello! Welcome to my corner of the web.</h4>
+        <p>
+          Whether you're a familiar face, recruiter, or curious bot (don't worry, my secrets are safe!), I'm glad you're here. <br> I'm passionate about technical support and cybersecurity, and I'm excited to share my expertise with you. Take a look around, and feel free to reach out!
+        </p>
+        <p>
+          - Immanuel
+        </p>
+         <!-- Let's Connect Button -->
+        <button id="connectBtn" class="connect-btn">Let's Connect</button>
+
+        <!-- Social Media Mini Page Popup -->
+        <div id="socialMediaPopup" class="popup-container">
+          <div class="popup-content">
+            <h2><b>Connect with Me</b></h2>
+            <ul class="social-icons">
+              <li>
+                <a href="mailto:adenijiemma@gmail.com" target="_blank">
+                  <img src="https://static.vecteezy.com/system/resources/previews/020/964/377/non_2x/gmail-mail-icon-for-web-design-free-png.png" alt="Email">
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/+2348146845553" target="_blank">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/fabulous.ay?mibextid=ZbWKwL" target="_blank">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/fabulouskeyz?t=djXx6eaOXHBfWKZJ5_Z5Pg&s=09" target="_blank">
+                  <img src="https://www.freepnglogos.com/uploads/twitter-x-logo-png/twitter-x-logo-png-9.png" alt="X">
+                </a>
+              </li>
+              <li>
+                <a href="https://discord.com/users/fabulous_00542" target="_blank">
+                  <img src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo-1-1.png" alt="Discord">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/emmanuel-adeniji-3653069a" target="_blank">
+                  <img src="https://gmlconsult.com/wp-content/uploads/2021/10/Illustration-of-Linkedin-icon-on-transparent-background-PNG.png" alt="LinkedIn">
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Fabuloz" target="_blank">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
+                </a>
+              </li>
+            </ul>
+            <button id="closePopup" class="close-btn">Close</button>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://www.thefinalhop.com/content/images/2024/03/thefinalhop_Understanding_CVE-2024-20337_A_Deep_Dive_into_Cisco_e5d01f0f-3290-4ba2-8f3a-f2001419b720.png" />
+            
+            <div class="overlay">
+              <h1>Cyber Security</h1>
+              <p>
+                Empowering secure digital experiences. Expert analysis and solutions to protect individuals and organizations from cyber threats.
+              </p>
+              
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://www.shrm.org/adobe/dynamicmedia/deliver/dm-aid--d98a850f-8612-47d1-ac94-cf352d6d8e5e/istock-1419146061.jpg?preferwebp=true&quality=82" />
+            <div class="overlay">
+              <h1>Technical Support Engineer</h1>
+              <p>
+                Proven technical support for effortless technology experiences. Reliable solutions and troubleshooting for individuals and organizations.
+              </p>
+                
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://www.clouddatainsights.com/wp-content/uploads/2023/04/cloud-infrastructure-Depositphotos_378110654_S.jpg" />
+            
+            <div class="overlay">
+              <h1>Cloud Infrastructure and Networking</h1>
+              <p>
+                Unlocking cloud potential. Reliable cloud infrastructure and networking expertise for optimized performance and security.
+              </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/42123154/original/9da6026fc4c125e8702a29d3cfb615a61e5324d0/do-graphic-design-in-corel-draw.jpeg" />
+            
+            <div class="overlay">
+              <h1>Design Expert</h1>
+              <p>
+                Visualizing your brand's potential. Creative graphics design solutions for impactful storytelling and brand recognition.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+   
+   <div class="timer-container">
+  <p> <span id="timer">0:00:00</span> </p>
+</div>
+
+    </section>
+
+<footer class="tiny-footer">
+  <p>&copy; <span id="currentYear"></span> Emmanuel Adeniji. All rights reserved.</p>
+</footer>
+
+  </body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/tsparticles@1.26.0/dist/tsparticles.min.js'></script>
+<script src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js'></script>
+<script src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
